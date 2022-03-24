@@ -71,12 +71,12 @@ export default function ClientView({
             </p>
             {!checkout_details.client_review ? (
               <>
-                <Link
+                {/* <Link
                   className={styles.nolink}
                   to={`/PersonalProfile/${checkout_details.client.id}`}
                 >
                   volver
-                </Link>
+                </Link> */}
                 <p className={styles.pBookingDetails}>
                   Dejanos tu opinión sobre {checkout_details.keeper.name}
                 </p>
