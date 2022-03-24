@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footerContainer {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerImg {
+  width: 100px;
+  margin: 10px 0px;
+}
+
+.footerContainerIcons {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copy {
+  color: #2d333b;
+  margin: 10px 0px;
+  font-weight: 500;
+}
