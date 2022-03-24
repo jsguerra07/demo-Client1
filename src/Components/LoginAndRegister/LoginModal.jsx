@@ -319,9 +319,9 @@ export const Login = () => {
                     </Link>
                   </div>
                     
-                          <div>
+                         {/*  <div>
                             <Google/>
-                          </div>
+                          </div> */}
 
                   
                 </div>
