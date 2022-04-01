@@ -203,11 +203,11 @@ export const Profile = (post) => {
             <h5>El usuario aún no posee comentarios</h5>
           )}
         </div>
-        <div className={mapa === true ? 'notDisabled' : 'Disabled'}>
+        {/* <div className={mapa === true ? 'notDisabled' : 'Disabled'}>
         
         <MapDetail />
        
-        </div>
+        </div> */}
         </div>
         </div>    
         
